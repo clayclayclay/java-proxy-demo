@@ -42,4 +42,4 @@ Cglib can proxy any Object whether the target class implements `Interface`.
 
 
 
-**In Spring AOP Framework,  the default is Jdk Dynamic Proxy, if the bean implements Interface, then Spring will automatically choose Cglib to init bean.
+**In Spring AOP Framework,  the default is Jdk Dynamic Proxy, if the bean implements Interface, then Spring will automatically choose Cglib to init bean.**
