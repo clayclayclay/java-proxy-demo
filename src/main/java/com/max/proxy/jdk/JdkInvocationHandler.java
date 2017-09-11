@@ -3,12 +3,12 @@ package com.max.proxy.jdk;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-public class CustomInvocationHandler implements InvocationHandler
+public class JdkInvocationHandler implements InvocationHandler
 {
     
     private Object targetObject;
 
-    public CustomInvocationHandler(Object targetObject)
+    public JdkInvocationHandler(Object targetObject)
     {
         this.targetObject = targetObject;
     }
