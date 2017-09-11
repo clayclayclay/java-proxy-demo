@@ -3,7 +3,7 @@ this is a project about java proxy, including:
 * jdk dynamic proxy
 * cglib
 
-## JDK Dynamic Proxy
+## Jdk Dynamic Proxy
 
 Involved Main Classes and Methods:
 
@@ -20,6 +20,7 @@ Involved Main Classes and Methods:
     ```
 
 
+Jdk Dynamic Proxy is a framework for `Interface-oriented` proxy type.
 
 ## Cglib Dynamic Proxy
 
@@ -36,3 +37,9 @@ Involved Main Classes and Methods:
   * ```java
     Object MethodInterceptor intercept(Object object, Method method, Object[] args, MethodProxy methodProxy) throws Throwable
     ```
+
+Cglib can proxy any Object whether the target class implements `Interface`.
+
+
+
+**In Spring AOP Framework,  the default is Jdk Dynamic Proxy, if the bean implements Interface, then Spring will automatically choose Cglib to init bean.
