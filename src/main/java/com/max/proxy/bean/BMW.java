@@ -1,4 +1,4 @@
-package com.max.proxy.jdk.bean;
+package com.max.proxy.bean;
 
 public class BMW implements Car
 {

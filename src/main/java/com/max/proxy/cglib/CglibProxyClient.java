@@ -1,7 +1,7 @@
 
 package com.max.proxy.cglib;
 
-import com.max.proxy.jdk.bean.Student;
+import com.max.proxy.bean.Student;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

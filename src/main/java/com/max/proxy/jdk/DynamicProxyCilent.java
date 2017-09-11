@@ -3,8 +3,8 @@ package com.max.proxy.jdk;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
-import com.max.proxy.jdk.bean.BMW;
-import com.max.proxy.jdk.bean.Car;
+import com.max.proxy.bean.BMW;
+import com.max.proxy.bean.Car;
 
 public class DynamicProxyCilent
 {
